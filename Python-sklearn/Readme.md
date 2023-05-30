@@ -17,4 +17,4 @@ scikit-learn內建的資料
 5. 類別(Class)：可分為Setosa，Versicolor和Virginica三個品種
 
 
-<img width="470" height="300" src="https://github.com/EvelynWANG1113/Tableau-iot/blob/main/%E5%9F%BA%E7%A4%8E%E8%B3%87%E6%96%99%E9%87%8F%E6%AA%A2%E8%A6%96.png"/>
+<img width="470" height="300" src="https://github.com/EmiliaWANG1113/Python/blob/main/Python-sklearn/post3-3.jpg"/>
