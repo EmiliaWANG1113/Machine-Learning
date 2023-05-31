@@ -28,11 +28,11 @@
    最常見的Normalization為0–1區間縮放，經過Normalization之後資料的範圍會介在0~1之間，原本的最大值變為1，最小值變為0
 
 
-<img width="450" height="350" src="https://github.com/EmiliaWANG1113/Python/blob/main/Python-sklearn/post3-3.jpg"/>
+<img width="650" height="150" src="https://github.com/EmiliaWANG1113/Python/blob/main/Python-datapreprocessing/Normalization.png"/>
 
 
 2. Standardization(標準化)
 
-<img width="450" height="350" src="https://github.com/EmiliaWANG1113/Python/blob/main/Python-sklearn/post3-3.jpg"/>
+<img width="650" height="150" src="https://github.com/EmiliaWANG1113/Python/blob/main/Python-datapreprocessing/Standardization.png"/>
 經過Standardization資料的平均值會變為0, 標準差變為1
 
