@@ -16,23 +16,23 @@
 
 但One-hot encoding的方法只適合類別種類少的形況，若類別種類太多就會產生出一大堆的特徵，造成其他的問題（比方說維數災難）。
 
-1. 丟棄，如果資料量夠多
-2. 補值(常見補值方式有補固定值、平均值、眾數、中位數)
 
-scikit-learn內建的資料
-[scikit-learn datasets](https://scikit-learn.org/stable/datasets/toy_dataset.html)
+## 資料特徵縮放(Feature Scaling)
+特徵縮放是資料前處理的一個很重要的關鍵，只少有部分的Model不需要做特徵縮放，像是**決策樹**以及**隨機森林**。
+需要特徵縮放主要是因為Model背後是用空間中的距離來做區分，假設某一個特徵過大，該Model的成本函數會被這個特徵所支配。
 
-## EX: Iris dataset為例
-鳶尾花資料集是非常著名的生物資訊資料集之一，取自美國加州大學歐文分校的機器學習資料庫
+簡單來說特徵縮放主要有兩種方法(這兩種常被混淆)：
 
-[Iris dataset](http://archive.ics.uci.edu/ml/datasets/Iris)
-資料的總筆數為150筆，共有五個欄位：
+1. Normalization(歸一化、常態化、區間縮放)
 
-1. 花萼長度(Sepal Length)：計算單位是公分
-2. 花萼寬度(Sepal Width)：計算單位是公分
-3. 花瓣長度(Petal Length) ：計算單位是公分
-4. 花瓣寬度(Petal Width)：計算單位是公分
-5. 類別(Class)：可分為Setosa，Versicolor和Virginica三個品種
+   最常見的Normalization為0–1區間縮放，經過Normalization之後資料的範圍會介在0~1之間，原本的最大值變為1，最小值變為0
 
 
 <img width="450" height="350" src="https://github.com/EmiliaWANG1113/Python/blob/main/Python-sklearn/post3-3.jpg"/>
+
+
+2. Standardization(標準化)
+
+<img width="450" height="350" src="https://github.com/EmiliaWANG1113/Python/blob/main/Python-sklearn/post3-3.jpg"/>
+經過Standardization資料的平均值會變為0, 標準差變為1
+
