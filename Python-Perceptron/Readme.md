@@ -10,4 +10,4 @@ Perception優點：
 Perception缺點：
 1. 一定要線性可分Perception演算法才會停下來（實務上我們沒辦法事先知道資料是否線性可分）
 2. Perception演算法的錯誤率不會逐步收斂
-3. Perception演算法只知道結果是A類還B類，但沒辦法知道是A, B類的機率是多少（接下來要介紹的Logistic regression可解決此問題）
+3. Perception演算法只知道結果是A類還B類，但沒辦法知道是A, B類的機率是多少
