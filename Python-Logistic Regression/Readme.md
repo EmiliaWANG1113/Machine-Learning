@@ -10,3 +10,6 @@ Sigmoid函數，也稱為logistic function，這個函數的y 的值介於 0~1�
 
 
 依下圖所示，當Z=0時判斷成+1類(A類)的機率為0.5，因此只要 z >0 判斷成 A類的機率就會>0.5 ，我們也就把它判斷成+1類(A類)。(這邊跟上一章perceptron一樣，只是多了機率的資訊) 如果z≤0 判斷成A類的機率就≤0.5 ，因此我們就把他判斷成-1類(B類)
+
+
+<img width="450" height="350" src="https://github.com/EmiliaWANG1113/Python/blob/main/Python-sklearn/post3-3.jpg"/>
