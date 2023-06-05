@@ -13,3 +13,12 @@ Sigmoid函數，也稱為logistic function，這個函數的y 的值介於 0~1�
 
 
 <img width="450" height="250" src="https://github.com/EmiliaWANG1113/Machine-Learning/blob/main/Python-Logistic%20Regression/%E6%88%AA%E5%9C%96%202023-06-05%20%E4%B8%8B%E5%8D%883.55.40.png"/>
+
+Logistic Regression優點：
+1. 資料不需要線性可分
+2. 可獲得A類B類的機率
+3. 實際上Logistic Regression執行速度非常快
+
+Logistic Regression缺點：
+1. 線切的較不漂亮
+
